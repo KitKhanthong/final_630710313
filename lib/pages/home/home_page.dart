@@ -76,18 +76,6 @@ class _HomePageState extends State<HomePage> {
         // todo: Create your poll item by replacing this Container()
         //return Text(polls![index].question);
 
-          /*return Card(
-            child: Column(
-              children: [
-                Text(polls![index].question),
-                Column(
-                  children: polls![index].choices.map((choice) {
-                    return Text(choice);
-                  }).toList(),
-                ),
-              ],
-            ),
-          );*/
         return Card(
           child: Column(
             children: [

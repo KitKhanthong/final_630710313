@@ -44,6 +44,7 @@ class ApiClient {
     return result;
 
   }
+
   Future<ResponseBody> _makeRequest(
     HttpMethod httpMethod,
     String path, [
